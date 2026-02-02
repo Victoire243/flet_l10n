@@ -1,0 +1,84 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+*.pyo
+*.pyd
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info
+*.egg
+MANIFEST
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Testing
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.pytest_cache/
+htmlcov/
+
+# Type checking
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Linting
+.ruff_cache/
+
+# Project-specific generated files
+l10n_keys.py
+locales/
+l10n.yaml
+
+# Logs
+*.log
+pip-log.txt
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Documentation builds
+docs/_build/
+site/
+
+# Build tools
+uv.lock
+.python-version
+
+# Config files
+.pypirc
+*.pypirc
+
+# Others files
+.PUBLISHING.md
+.deploy.ps1
+.deploy.sh

@@ -1,0 +1,26 @@
+{
+  "@@locale": "es",
+  "appTitle": "Mi Aplicación",
+  "@appTitle": {
+    "description": "El título de la aplicación"
+  },
+  "welcome": "Bienvenido, {name}!",
+  "@welcome": {
+    "description": "Mensaje de bienvenida con el nombre del usuario",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "VicKi"
+      }
+    }
+  },
+  "itemCount": "{count, plural, =0{No hay artículos} one{Un artículo} other{{count} artículos}}",
+  "@itemCount": {
+    "description": "Número de artículos con gestión del plural",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  }
+}

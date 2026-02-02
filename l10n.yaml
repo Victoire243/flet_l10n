@@ -1,0 +1,5 @@
+arb-dir: locales
+default-locale: en
+fallback-locale: en
+template-arb-file: app_en.arb
+hot-reload: true

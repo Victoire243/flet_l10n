@@ -1,0 +1,16 @@
+include README.md
+include LICENSE
+include ABOUT.md
+recursive-include src/flet_l10n *.py
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]
+recursive-exclude tests *
+recursive-exclude examples *
+exclude demo_autocomplete.py
+exclude test_*.py
+exclude l10n_keys.py
+exclude l10n.yaml
+exclude COMPLETION_REPORT.md
+exclude FINAL_SUMMARY.md
+exclude IMPLEMENTATION.md
+exclude TYPED_KEYS.md

@@ -1,0 +1,27 @@
+{
+  "@@locale": "en",
+  "@@last_modified": "2026-02-02T00:00:00.000",
+  "appTitle": "My Application",
+  "@appTitle": {
+    "description": "The title of the application"
+  },
+  "welcome": "Welcome, {name}!",
+  "@welcome": {
+    "description": "Welcome message with user name",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "VicKi"
+      }
+    }
+  },
+  "itemCount": "{count, plural, =0{No items} one{One item} other{{count} items}}",
+  "@itemCount": {
+    "description": "Display item count with pluralization",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  }
+}
