@@ -1,8 +1,8 @@
 ﻿# flet_l10n - Localization for Flet Applications
 
+[![PyPI version](https://badge.fury.io/py/flet-l10n.svg)](https://badge.fury.io/py/flet-l10n)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![PyPI version](https://badge.fury.io/py/flet-l10n.svg)](https://badge.fury.io/py/flet-l10n)
 
 **flet_l10n** is a Python package that provides localization support for [Flet](https://flet.dev) applications, enabling developers to create multilingual user interfaces with ease. Inspired by Flutter's l10n system, flet_l10n uses ARB (Application Resource Bundle) files and ICU MessageFormat for powerful, flexible translations.
 
