@@ -455,7 +455,7 @@ from l10n_keys import L10nKeys
 
 # IDE will autocomplete L10nKeys.appTitle, L10nKeys.welcome, etc.
 page.title = l10n.t(L10nKeys.appTitle)
-greeting = l10n.t(L10nKeys.welcome, name="Alice")
+greeting = l10n.t(L10nKeys.welcome, name="Victoire")
 ```
 
 Benefits:
@@ -665,7 +665,7 @@ def main(page: ft.Page):
             ft.dropdown.Option("es", "Español 🇪🇸"),
             ft.dropdown.Option("fr", "Français 🇫🇷"),
         ],
-        on_change=lambda e: l10n.set_locale(e.control.value),
+        on_select=lambda e: l10n.set_locale(e.control.value),
         width=250,
     )
     
