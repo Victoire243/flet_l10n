@@ -5,8 +5,7 @@ description = "Localization support for Flet applications using Flutter's ARB fo
 readme = "README.md"
 license = { text = "MIT" }
 authors = [
-    { name = "Victoire Kitenge", email = "yumakitenge2@gmail.com",
-      url = "https://victoirekitenge.vercel.app/" },
+    { name = "Victoire Kitenge", email = "yumakitenge2@gmail.com" },
 ]
 keywords = ["flet", "localization", "l10n", "i18n", "arb", "translation", "flutter", "internationalization"]
 classifiers = [
